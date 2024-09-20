@@ -1,11 +1,11 @@
 # Taken from megadlbot_oss <https://github.com/eyaadh/megadlbot_oss/blob/master/mega/webserver/routes.py>
 # Thanks to Eyaadh <https://github.com/eyaadh>
-# Credit @LazyDeveloper.
+# Credit .
 # Please Don't remove credit.
-# Born to make history @LazyDeveloper !
-# Thank you LazyDeveloper for helping us in this Journey
-# 🥰  Thank you for giving me credit @LazyDeveloperr  🥰
-# for any error please contact me -> telegram@LazyDeveloperr or insta @LazyDeveloperr 
+# Born to make history  !
+# Thank you @mukeshmoni for helping us in this Journey
+# 🥰  Thank you for giving me credit  🥰
+# for any error please contact me -> telegram @KingofAtttitude or insta @god_of_love1626
 
 
 import re
@@ -16,7 +16,7 @@ import time
 import mimetypes
 from aiohttp import web
 from aiohttp.http_exceptions import BadStatusLine
-from lazybot import multi_clients, work_loads, LazyPrincessBot
+from lazybot import multi_clients, work_loads, CutePrincessBot
 from server.exceptions import FIleNotFound, InvalidHash
 from zzint import StartTime, __version__
 from util.custom_dl import ByteStreamer
@@ -33,7 +33,7 @@ async def root_route_handler(request):
         {
             "server_status": "running",
             "uptime": get_readable_time(time.time() - StartTime),
-            "telegram_bot": "@" + LazyPrincessBot.username,
+            "telegram_bot": "@" + CutePrincessBot.username,
             "connected_bots": len(multi_clients),
             "loads": dict(
                 ("bot" + str(c + 1), l)

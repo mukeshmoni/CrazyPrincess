@@ -1,11 +1,11 @@
-    # Credit @LazyDeveloper.
+    # Credit .
     # Please Don't remove credit.
-    # Born to make history @LazyDeveloper !
+    # Born to make history  !
 
-    # Thank you LazyDeveloper for helping us in this Journey
-    # 🥰  Thank you for giving me credit @LazyDeveloperr  🥰
+    # Thank you @mukeshmoni for helping us in this Journey
+    # 🥰  Thank you for giving me credit  🥰
 
-    # for any error please contact me -> telegram@LazyDeveloperr or insta @LazyDeveloperr 
+    # for any error please contact me -> telegram @KingofAtttitude or insta @god_of_love1626
 import logging
 import logging.config
 logging.config.fileConfig('logging.conf')
@@ -29,7 +29,7 @@ from pyrogram import types
 from aiohttp import web
 from pyrogram import Client
 
-class LazyPrincessXBot(Client):
+class CutePrincessXBot(Client):
     def __init__(self):
         super().__init__(
             name=SESSION,
@@ -82,4 +82,4 @@ class LazyPrincessXBot(Client):
 multi_clients = {}
 work_loads = {}
 
-LazyPrincessBot = LazyPrincessXBot()
+CutePrincessBot = CutePrincessXBot()

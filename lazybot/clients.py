@@ -1,21 +1,21 @@
-    # Credit @LazyDeveloper.
+    # Credit .
     # Please Don't remove credit.
-    # Born to make history @LazyDeveloper !
+    # Born to make history  !
 
-    # Thank you LazyDeveloper for helping us in this Journey
-    # 🥰  Thank you for giving me credit @LazyDeveloperr  🥰
+    # Thank you @mukeshmoni for helping us in this Journey
+    # 🥰  Thank you for giving me credit  🥰
 
-    # for any error please contact me -> telegram@LazyDeveloperr or insta @LazyDeveloperr 
+    # for any error please contact me -> telegram @KingofAtttitude or insta @god_of_love1626
 import asyncio
 import logging
 from info import *
 from pyrogram import Client
 from util.config_parser import TokenParser
-from . import multi_clients, work_loads, LazyPrincessBot
+from . import multi_clients, work_loads, CutePrincessBot
 
 
 async def initialize_clients():
-    multi_clients[0] = LazyPrincessBot
+    multi_clients[0] = CutePrincessBot
     work_loads[0] = 0
     all_tokens = TokenParser().parse_from_env()
     if not all_tokens:

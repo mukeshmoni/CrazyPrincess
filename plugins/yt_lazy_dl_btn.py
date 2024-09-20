@@ -1,5 +1,5 @@
-# with Love @LazyDeveloperr 💘
-# Subscribe YT @LazyDeveloperr - to learn more about this for free...
+# with @mukeshmoni Love 💘
+# Contact Me Telegram @KingofAtttitude - to learn more about this for free...
 
 import logging
 logging.basicConfig(level=logging.DEBUG,
@@ -109,11 +109,11 @@ async def youtube_dl_call_back(client, query):
         xLAZY_BAAPUx_init = await query.edit_message_text(
                         text=f"ღ♡ ɪɴɪᴛɪᴀᴛɪɴɢ ʟᴀᴢʏ ᴄᴏɴꜱᴛʀᴜᴄᴛɪᴏɴ ♡♪ \n⬇️⏬ {namee}",
                     )
-        await query.edit_message_text(f"**ღ♡ ʀᴜɴɴɪɴɢ ʟᴀᴢʏ ᴄᴏɴꜱᴛʀᴜᴄᴛɪᴏɴ ♡♪**\n**ᵉⁿʲᵒʸ ˢᵘᵖᵉʳᶠᵃˢᵗ ᵈᵒʷⁿˡᵒᵈ ᵇʸ [ᴸᵃᶻʸᴰᵉᵛᵉˡᵒᵖᵉʳʳ](https://t.me/LazyDeveloper)◔_◔** \n\n**░░✩ 📂𝐎𝐑𝐆 𝐅𝐈𝐋𝐄𝐍𝐀𝐌𝐄 ✩ **\n<code>{namee}</code>\n\n**░░✩ 📝𝐍𝐄𝐖 𝐍𝐀𝐌𝐄 ✩ **\n<code>{template_name}</code>\n\n███████████████████████\n⚡️**ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ** | 🧬ѕιzє: {sizee}", disable_web_page_preview=True,)
+        await query.edit_message_text(f"**ღ♡ ʀᴜɴɴɪɴɢ ʟᴀᴢʏ ᴄᴏɴꜱᴛʀᴜᴄᴛɪᴏɴ ♡♪**\n**ᵉⁿʲᵒʸ ˢᵘᵖᵉʳᶠᵃˢᵗ ᵈᵒʷⁿˡᵒᵈ ᵇʸ [ᴰᵉᵛᵉˡᵒᵖᵉʳʳ](https://t.me/KingofAtttitude)◔_◔** \n\n**░░✩ 📂𝐎𝐑𝐆 𝐅𝐈𝐋𝐄𝐍𝐀𝐌𝐄 ✩ **\n<code>{namee}</code>\n\n**░░✩ 📝𝐍𝐄𝐖 𝐍𝐀𝐌𝐄 ✩ **\n<code>{template_name}</code>\n\n███████████████████████\n⚡️**ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ** | 🧬ѕιzє: {sizee}", disable_web_page_preview=True,)
         # progress to be displayed to the user
         # i am currently work on this to display current progress in progress bar in the chat
-        # if you have code then you can contact me @LazyDeveloperr on telegram - instagram 
-        # with love 💘 @LazyDeveloperr
+        # if you have code then you can contact me on telegram - instagram 
+        # with @mukeshmoni Love 💘 
     except Exception as e:
         await xLAZY_BAAPUx_init.edit(e)
         pass

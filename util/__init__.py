@@ -1,1 +1,1 @@
-# I hate my Dirty-Mind @LazyDeveloperr 😎😍
+# I hate my Dirty-Mind 😎😍

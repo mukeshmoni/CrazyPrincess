@@ -1,6 +1,6 @@
 """
 Apache License 2.0
-Copyright (c) 2023 @LazyDeveloper
+Copyright (c) 2023 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
@@ -16,20 +16,20 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-Dev Channel Link : https://t.me/LazyDeveloper 
-Repo Link : https://github.com/LazyDeveloperr/LazyPrincess
-License Link : https://github.com/LazyDeveloperr/LazyPrincess/blob/main/LICENSE
+Dev Channel Link : https://t.me/KingofAtttitude 
+Repo Link : https://github.com/mukeshmoni/CrazyPrincess
+License Link : https://github.com/mukeshmoni/CrazyPrincess/blob/main/LICENSE
 # Removing this is strictly prohibited ! Don't remove this all without the 
-permission of LazyDeveloperr
+permission of @mukeshmoni
 """
-    # Credit @LazyDeveloper.
+    # Credit .
     # Please Don't remove credit.
-    # Born to make history @LazyDeveloper !
+    # Born to make history  !
 
-    # Thank you LazyDeveloper for helping us in this Journey
-    # 🥰  Thank you for giving me credit @LazyDeveloperr  🥰
+    # Thank you @mukeshmoni for helping us in this Journey
+    # 🥰  Thank you for giving me credit  🥰
 
-    # for any error please contact me -> telegram@LazyDeveloperr or insta @LazyDeveloperr 
+    # for any error please contact me -> telegram @KingofAtttitude or insta @god_of_love1626
 
 import asyncio
 from asyncio import sleep

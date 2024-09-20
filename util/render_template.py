@@ -1,12 +1,12 @@
-# Credit @LazyDeveloper.
+# Credit .
 # Please Don't remove credit.
-# Born to make history @LazyDeveloper !
-# Thank you LazyDeveloper for helping us in this Journey
-# 🥰  Thank you for giving me credit @LazyDeveloperr  🥰
-# for any error please contact me -> telegram@LazyDeveloperr or insta @LazyDeveloperr 
-# rip paid developers 🤣 - >> No need to buy paid source code while @LazyDeveloperr is here 😍😍
+# Born to make history  !
+# Thank you @mukeshmoni for helping us in this Journey
+# 🥰  Thank you for giving me credit  🥰
+# for any error please contact me -> telegram @KingofAtttitude or insta @god_of_love1626
+# rip paid developers 🤣 - >> No need to buy paid source code while  is here 😍😍
 from info import *
-from lazybot import LazyPrincessBot
+from lazybot import CutePrincessBot
 from util.human_readable import humanbytes
 from util.file_properties import get_file_ids
 from server.exceptions import InvalidHash
@@ -17,7 +17,7 @@ import aiohttp
 
 
 async def render_page(id, secure_hash):
-    file_data=await get_file_ids(LazyPrincessBot, int(LOG_CHANNEL), int(id))
+    file_data=await get_file_ids(CutePrincessBot, int(LOG_CHANNEL), int(id))
     if file_data.unique_id[:6] != secure_hash:
         logging.debug(f'link hash: {secure_hash} - {file_data.unique_id[:6]}')
         logging.debug(f"Invalid hash for message with - ID {id}")

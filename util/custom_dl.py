@@ -1,10 +1,10 @@
-# Credit @LazyDeveloper.
+# Credit .
 # Please Don't remove credit.
-# Born to make history @LazyDeveloper !
-# Thank you LazyDeveloper for helping us in this Journey
-# 🥰  Thank you for giving me credit @LazyDeveloperr  🥰
-# for any error please contact me -> telegram@LazyDeveloperr or insta @LazyDeveloperr 
-# rip paid developers 🤣 - >> No need to buy paid source code while @LazyDeveloperr is here 😍😍
+# Born to make history  !
+# Thank you @mukeshmoni for helping us in this Journey
+# 🥰  Thank you for giving me credit  🥰
+# for any error please contact me -> telegram @KingofAtttitude or insta @god_of_love1626
+# rip paid developers 🤣 - >> No need to buy paid source code while  is here 😍😍
 import math
 import asyncio
 import logging
@@ -65,8 +65,8 @@ class ByteStreamer:
         logging.debug(f"Cached media message with ID {id}")
         return self.cached_file_ids[id]
     
-        # with Love @LazyDeveloperr 💘
-        # Subscribe YT @LazyDeveloperr - to learn more about this for free...
+        # with @mukeshmoni Love 💘
+        # Contact Me Telegram @KingofAtttitude - to learn more about this for free...
 
     async def generate_media_session(self, client: Client, file_id: FileId) -> Session:
         """

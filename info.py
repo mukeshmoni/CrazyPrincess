@@ -41,7 +41,7 @@ AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information *
 DATABASE_URI = environ.get('DATABASE_URI', "")
-DATABASE_NAME = environ.get('DATABASE_NAME', "LazyDeveloper")
+DATABASE_NAME = environ.get('DATABASE_NAME', "@mukeshmoni")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # LOG CHANNELS *
@@ -58,18 +58,18 @@ LAZY_RENAMERS = (lazy_renamers + ADMINS) if lazy_renamers else [] #Add user id o
 LZURL_PRIME_USERS = [int(lazyurlers) if id_pattern.search(lazyurlers) else lazyurlers for lazyurlers in environ.get('LZURL_PRIME_USERS', '5965340120').split()]
 
 QR_CODE_IMG = environ.get('QR_CODE_IMG','https://telegra.ph/file/ca18e2c794f4ea1c3135b.jpg') #add url link of your qr code to recieve money - use telegraph bot or other source to get image
-UPI_ID = environ.get('UPI_ID', 'lazydeveloper@ybl') #enter your upi id here - grab it from your online payment methods.
+UPI_ID = environ.get('UPI_ID', '@mukeshmoni@ybl') #enter your upi id here - grab it from your online payment methods.
 
 # Others
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/real_MoviesAdda3/186') # Tutorial video link for opening shortlink website 
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'LazyDeveloper')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '@mukeshmoni')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "False")), False)
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "⚡<b>File uploaded by [Movies Adda™](https://t.me/real_MoviesAdda3)</b>⚡\n\n📂<b>File Name:</b> ⪧ {file_caption} \n <b>Size: </b>{file_size}\n\n❤")
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
-IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "<b>Your Query: {query}</b> \n‌‌‌‌🎁Support: @LazyDeveloper 🎁\n\n🏷 Title: <a href={url}>{title}</a>\n🎭 Genres: {genres}\n📆 Year: <a href={url}/releaseinfo>{year}</a>\n🌟 Rating: <a href={url}/ratings>{rating}</a> / 10 \n\n♥️ we are nothing without you ♥️ \n\n💛 Please Share Us 💛\n\n⚠️Click on the button 👇 below to get your query privately")
+IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "<b>Your Query: {query}</b> \n‌‌‌‌🎁Support:  🎁\n\n🏷 Title: <a href={url}>{title}</a>\n🎭 Genres: {genres}\n📆 Year: <a href={url}/releaseinfo>{year}</a>\n🌟 Rating: <a href={url}/ratings>{rating}</a> / 10 \n\n♥️ we are nothing without you ♥️ \n\n💛 Please Share Us 💛\n\n⚠️Click on the button 👇 below to get your query privately")
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
 SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), False)
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
@@ -84,9 +84,9 @@ FLOOD = int(environ.get("FLOOD", "10"))
 LAZY_MODE = bool(environ.get("LAZY_MODE")) #make it true to enable file renaming feature in bot
 
 # Requested Content template variables --- 
-ADMIN_USRNM = environ.get('ADMIN_USRNM','LazyDeveloperr') # WITHOUT @
-MAIN_CHANNEL_USRNM = environ.get('MAIN_CHANNEL_USRNM','LazyDeveloper') # WITHOUT @
-DEV_CHANNEL_USRNM = environ.get('DEV_CHANNEL_USRNM','LazyDeveloper') # WITHOUT @
+ADMIN_USRNM = environ.get('ADMIN_USRNM','@mukeshmoni') # WITHOUT @
+MAIN_CHANNEL_USRNM = environ.get('MAIN_CHANNEL_USRNM','@mukeshmoni') # WITHOUT @
+DEV_CHANNEL_USRNM = environ.get('DEV_CHANNEL_USRNM','@mukeshmoni') # WITHOUT @
 LAZY_YT_HANDLE = environ.get('LAZY_YT_HANDLE','LayDeveloperr')  # WITHOUT @ [  add only handle - don't add full url  ] 
 MOVIE_GROUP_USERNAME = environ.get('MOVIE_GROUP_USERNAME', "+tl1Ll8L8TbQwMjdl") #[ without @ ]
 
@@ -116,7 +116,7 @@ SLEEP_THRESHOLD = int(environ.get('SLEEP_THRESHOLD', '60'))
 WORKERS = int(environ.get('WORKERS', '4'))
 SESSION_NAME = str(environ.get('SESSION_NAME', 'LazyBot'))
 MULTI_CLIENT = False
-name = str(environ.get('name', 'LazyPrincess'))
+name = str(environ.get('name', 'CutePrincess'))
 PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
 if 'DYNO' in environ:
     ON_HEROKU = True
@@ -130,7 +130,7 @@ if HAS_SSL:
 else:
     URL = "http://{}/".format(FQDN)
 BANNED_CHANNELS = list(set(int(x) for x in str(getenv("BANNED_CHANNELS", "-1001987654567")).split())) 
-OWNER_USERNAME = "LazyDeveloper"
+OWNER_USERNAME = "@mukeshmoni"
 
 lazydownloaders = [int(lazydownloaders) if id_pattern.search(lazydownloaders) else lazydownloaders for lazydownloaders in environ.get('PRIME_DOWNLOADERS', '').split()]
 PRIME_DOWNLOADERS = (lazydownloaders) if lazydownloaders else []
@@ -184,10 +184,10 @@ LOG_STR += ("Long IMDB storyline enabled." if LONG_IMDB_DESCRIPTION else "LONG_I
 LOG_STR += ("Spell Check Mode Is Enabled, bot will be suggesting related movies if movie not found\n" if SPELL_CHECK_REPLY else "SPELL_CHECK_REPLY Mode disabled\n")
 LOG_STR += (f"MAX_LIST_ELM Found, long list will be shortened to first {MAX_LIST_ELM} elements\n" if MAX_LIST_ELM else "Full List of casts and crew will be shown in imdb template, restrict them by adding a value to MAX_LIST_ELM\n")
 LOG_STR += f"Your current IMDB template is {IMDB_TEMPLATE}"
-# Credit @LazyDeveloper.
+# Credit .
 # Please Don't remove credit.
-# Born to make history @LazyDeveloper !
-# Thank you LazyDeveloper for helping us in this Journey
-# 🥰  Thank you for giving me credit @LazyDeveloperr  🥰
-# for any error please contact me -> telegram@LazyDeveloperr or insta @LazyDeveloperr 
-# rip paid developers 🤣 - >> No need to buy paid source code while @LazyDeveloperr is here 😍😍
+# Born to make history  !
+# Thank you @mukeshmoni for helping us in this Journey
+# 🥰  Thank you for giving me credit  🥰
+# for any error please contact me -> telegram @KingofAtttitude or insta @god_of_love1626
+# rip paid developers 🤣 - >> No need to buy paid source code while  is here 😍😍

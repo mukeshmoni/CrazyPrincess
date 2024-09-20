@@ -1,12 +1,12 @@
-# Credit @LazyDeveloper.
+# Credit .
 # Please Don't remove credit.
-# Born to make history @LazyDeveloper !
-# Thank you LazyDeveloper for helping us in this Journey
-# 🥰  Thank you for giving me credit @LazyDeveloperr  🥰
-# for any error please contact me -> telegram@LazyDeveloperr or insta @LazyDeveloperr 
-# rip paid developers 🤣 - >> No need to buy paid source code while @LazyDeveloperr is here 😍😍
-# with Love @LazyDeveloperr 💘
-# Subscribe YT @LazyDeveloperr - to learn more about this for free...
+# Born to make history  !
+# Thank you @mukeshmoni for helping us in this Journey
+# 🥰  Thank you for giving me credit  🥰
+# for any error please contact me -> telegram @KingofAtttitude or insta @god_of_love1626
+# rip paid developers 🤣 - >> No need to buy paid source code while  is here 😍😍
+# with @mukeshmoni Love 💘
+# Contact Me Telegram @KingofAtttitude - to learn more about this for free...
 
 import asyncio
 import re
@@ -27,7 +27,7 @@ from pyrogram import Client, filters, enums
 from pyrogram.errors import FloodWait, UserIsBlocked, MessageNotModified, PeerIdInvalid
 from utils import get_size, is_subscribed, get_poster, search_gagala, temp, get_settings, save_group_settings
 from database.users_chats_db import db
-from database.ia_filterdb import Media, get_file_details, get_search_results,get_search_results_badAss_LazyDeveloperr
+from database.ia_filterdb import Media, get_file_details, get_search_results,get_search_results_badAss_@mukeshmoni
 from database.lazy_utils import progress_for_pyrogram, convert, humanbytes
 from hachoir.metadata import extractMetadata
 from hachoir.parser import createParser
@@ -96,7 +96,7 @@ async def rename(bot,update):
 	reply_to_message_id=update.message.reply_to_message.id,  
 	reply_markup=ForceReply(True))  
     
-# Born to make history @LazyDeveloper !
+# Born to make history  !
 @Client.on_callback_query(filters.regex("upload"))
 async def doc(bot, update):
     try:
@@ -191,7 +191,7 @@ async def doc(bot, update):
     except Exception as e:
         logger.error(f"error 2 : {e}")
 
-# Born to make history @LazyDeveloper !
+# Born to make history  !
 @Client.on_callback_query(filters.regex(r"^next"))
 async def next_page(bot, query):
     ident, req, key, offset = query.data.split("_")
@@ -211,7 +211,7 @@ async def next_page(bot, query):
         await query.answer("You are using one of my old messages, please send the request again.", show_alert=True)
         return
 
-    files, n_offset, total = await get_search_results_badAss_LazyDeveloperr(chat_id, search, offset=offset, filter=True)
+    files, n_offset, total = await get_search_results_badAss_@mukeshmoni(chat_id, search, offset=offset, filter=True)
     try:
         n_offset = int(n_offset)
     except:
@@ -438,7 +438,7 @@ async def next_page(bot, query):
         pass
     await query.answer()
 
-# Born to make history @LazyDeveloper !
+# Born to make history  !
 @Client.on_callback_query(filters.regex(r"^spolling"))
 async def advantage_spoll_choker(bot, query):
     _, user, movie_ = query.data.split('#')
@@ -455,7 +455,7 @@ async def advantage_spoll_choker(bot, query):
     await query.answer('Checking for Movie in database...')
     k = await manual_filters(bot, query.message, text=movie)
     if k == False:
-        files, offset, total_results = await get_search_results_badAss_LazyDeveloperr(chat_id, movie, offset=0, filter=True)
+        files, offset, total_results = await get_search_results_badAss_@mukeshmoni(chat_id, movie, offset=0, filter=True)
         if files:
             k = (movie, files, offset, total_results)
             await auto_filter(bot, query, k)
@@ -538,7 +538,7 @@ async def filter_qualities_cb_handler(client: Client, query: CallbackQuery):
             search = f"{search} {qual}" 
         BUTTONS[key] = search
 
-        files, offset, total_results = await get_search_results_badAss_LazyDeveloperr(chat_id, search, offset=0, filter=True)
+        files, offset, total_results = await get_search_results_badAss_@mukeshmoni(chat_id, search, offset=0, filter=True)
         if not files:
             await query.answer("🚫 ɴᴏ ꜰɪʟᴇꜱ ᴡᴇʀᴇ ꜰᴏᴜɴᴅ 🚫", show_alert=1)
             return
@@ -830,13 +830,13 @@ async def filter_seasons_cb_handler(client: Client, query: CallbackQuery):
         search = f"{search} {seas}"
         BUTTONS0[key] = search
 
-        files, _, _ = await get_search_results_badAss_LazyDeveloperr(chat_id, search, max_results=10)
+        files, _, _ = await get_search_results_badAss_@mukeshmoni(chat_id, search, max_results=10)
         files = [file for file in files if re.search(seas, file.file_name, re.IGNORECASE)]
 
         seas1 = "s01" if seas == "season 1" else "s02" if seas == "season 2" else "s03" if seas == "season 3" else "s04" if seas == "season 4" else "s05" if seas == "season 5" else "s06" if seas == "season 6" else "s07" if seas == "season 7" else "s08" if seas == "season 8" else "s09" if seas == "season 9" else "s10" if seas == "season 10" else ""
         search1 = f"{search1} {seas1}"
         BUTTONS1[key] = search1
-        files1, _, _ = await get_search_results_badAss_LazyDeveloperr(chat_id, search1, max_results=10)
+        files1, _, _ = await get_search_results_badAss_@mukeshmoni(chat_id, search1, max_results=10)
         files1 = [file for file in files1 if re.search(seas1, file.file_name, re.IGNORECASE)]
 
         if files1:
@@ -845,7 +845,7 @@ async def filter_seasons_cb_handler(client: Client, query: CallbackQuery):
         seas2 = "season 01" if seas == "season 1" else "season 02" if seas == "season 2" else "season 03" if seas == "season 3" else "season 04" if seas == "season 4" else "season 05" if seas == "season 5" else "season 06" if seas == "season 6" else "season 07" if seas == "season 7" else "season 08" if seas == "season 8" else "season 09" if seas == "season 9" else "s010"
         search2 = f"{search2} {seas2}"
         BUTTONS2[key] = search2
-        files2, _, _ = await get_search_results_badAss_LazyDeveloperr(chat_id, search2, max_results=10)
+        files2, _, _ = await get_search_results_badAss_@mukeshmoni(chat_id, search2, max_results=10)
         files2 = [file for file in files2 if re.search(seas2, file.file_name, re.IGNORECASE)]
 
         if files2:
@@ -1134,7 +1134,7 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
             search = f"{search} {lang}"
         BUTTONS[key] = search
     
-        files, offset, total_results = await get_search_results_badAss_LazyDeveloperr(chat_id, search, offset=0, filter=True)
+        files, offset, total_results = await get_search_results_badAss_@mukeshmoni(chat_id, search, offset=0, filter=True)
 
         if not files:
             await query.answer("🚫 𝗡𝗼 𝗙𝗶𝗹𝗲 𝗪𝗲𝗿𝗲 𝗙𝗼𝘂𝗻𝗱 🚫", show_alert=1)
@@ -1344,7 +1344,7 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
     except Exception as e:
         logger.error(f"Got an unexpected error : {e}")
 
-# Born to make history @LazyDeveloper !
+# Born to make history  !
 @Client.on_callback_query()
 async def cb_handler(client: Client, query: CallbackQuery):
     data = query.data
@@ -1365,20 +1365,20 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     title = chat.title
                 except:
                     await query.message.edit_text("Make sure I'm present in your group!!", quote=True)
-                    return await query.answer('♥️ Love @LazyDeveloper ♥️')
+                    return await query.answer('♥️ Love  ♥️')
             else:
                 await query.message.edit_text(
                     "I'm not connected to any groups!\nCheck /connections or connect to any groups",
                     quote=True
                 )
-                return await query.answer('♥️ Thank You LazyDeveloper ♥️')
+                return await query.answer('♥️ Thank You @mukeshmoni ♥️')
 
         elif chat_type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
             grp_id = query.message.chat.id
             title = query.message.chat.title
 
         else:
-            return await query.answer('♥️ Thank You LazyDeveloper ♥️')
+            return await query.answer('♥️ Thank You @mukeshmoni ♥️')
 
         st = await client.get_chat_member(grp_id, userid)
         if (st.status == enums.ChatMemberStatus.OWNER) or (str(userid) in ADMINS):
@@ -1442,7 +1442,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=keyboard,
             parse_mode=enums.ParseMode.MARKDOWN
         )
-        return await query.answer('♥️ Thank You LazyDeveloper ♥️')
+        return await query.answer('♥️ Thank You @mukeshmoni ♥️')
     elif "connectcb" in query.data:
         await query.answer()
 
@@ -1463,7 +1463,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             )
         else:
             await query.message.edit_text('Some error occurred!!', parse_mode=enums.ParseMode.MARKDOWN)
-        return await query.answer('♥️ Thank You LazyDeveloper ♥️')
+        return await query.answer('♥️ Thank You @mukeshmoni ♥️')
     elif "disconnect" in query.data:
         await query.answer()
 
@@ -1486,7 +1486,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 f"Some error occurred!!",
                 parse_mode=enums.ParseMode.MARKDOWN
             )
-        return await query.answer('♥️ Thank You LazyDeveloper ♥️')
+        return await query.answer('♥️ Thank You @mukeshmoni ♥️')
     elif "deletecb" in query.data:
         await query.answer()
 
@@ -1504,7 +1504,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 f"Some error occurred!!",
                 parse_mode=enums.ParseMode.MARKDOWN
             )
-        return await query.answer('♥️ Thank You LazyDeveloper ♥️')
+        return await query.answer('♥️ Thank You @mukeshmoni ♥️')
     elif query.data == "backcb":
         await query.answer()
 
@@ -1515,7 +1515,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             await query.message.edit_text(
                 "There are no active connections!! Connect to some groups first.",
             )
-            return await query.answer('♥️ Thank You LazyDeveloper ♥️')
+            return await query.answer('♥️ Thank You @mukeshmoni ♥️')
         buttons = []
         for groupid in groupids:
             try:
@@ -1673,7 +1673,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('💸 E𝐚𝐫𝐧 M𝐨𝐧𝐞𝐲 💸', callback_data="shortlink_info")
         ],[
                 InlineKeyboardButton(
-                    "🦋 SUBSCRIBE YT Channel 🦋", url='https://youtube.com/@LazyDeveloperr'
+                    "🦋 SUBSCRIBE YT Channel 🦋", url='https://youtube.com/@freecodecamp'
                 )
             ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -1682,7 +1682,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
-        await query.answer('♥️ Thank You LazyDeveloper ♥️')
+        await query.answer('♥️ Thank You @mukeshmoni ♥️')
     elif query.data == "help":
         buttons = [[
             InlineKeyboardButton('Manual Filter', callback_data='manuelfilter'),
@@ -1805,7 +1805,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('♥️ Aʙᴏᴜᴛ', callback_data='about')
             ],[
             InlineKeyboardButton('Open settings', callback_data='openSettings'),
-            InlineKeyboardButton('💤Developer', url='https://telegram.me/LazyDeveloper')
+            InlineKeyboardButton('💤Developer', url='https://telegram.me/@mukeshmoni')
             ],[
             InlineKeyboardButton('🔐 Close', callback_data='close_data')
             ]]
@@ -1822,7 +1822,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await OpenSettings(query.message)
 
     elif query.data == "triggerUploadMode":
-        await query.answer("Thank You LazyDeveloper")
+        await query.answer("Thank You @mukeshmoni")
         upload_as_doc = await db.get_upload_as_doc(query.from_user.id)
         if upload_as_doc:
             await db.set_upload_as_doc(query.from_user.id, False)
@@ -1909,7 +1909,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             btn = [[
                 InlineKeyboardButton(text=f"🔍 Sᴇᴀʀᴄʜ 🇭​​​​​🇪​​​​​🇷​​​​​🇪​​​​​ 🔎", url=f"https://telegram.me/{MOVIE_GROUP_USERNAME}")
             ],[
-                InlineKeyboardButton(text=f"🐞 ══• ʀᴇᴘᴏʀᴛ ɪꜱꜱᴜᴇ •══ 🐞", url=f"https://telegram.me/LazyDeveloperSupport")
+                InlineKeyboardButton(text=f"🐞 ══• ʀᴇᴘᴏʀᴛ ɪꜱꜱᴜᴇ •══ 🐞", url=f"https://telegram.me/TMK_MUSICSUPPORT")
             ]]
             btn_lzdv = [
                 [
@@ -1934,7 +1934,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             btn = [[
                 InlineKeyboardButton(text=f"🔍 Sᴇᴀʀᴄʜ 🇭​​​​​🇪​​​​​🇷​​​​​🇪​​​​​ 🔎", url=f"https://telegram.me/{MOVIE_GROUP_USERNAME}")
             ],[
-                InlineKeyboardButton(text=f"🐞 ══• ʀᴇᴘᴏʀᴛ ɪꜱꜱᴜᴇ •══ 🐞", url=f"https://telegram.me/LazyDeveloperSupport")
+                InlineKeyboardButton(text=f"🐞 ══• ʀᴇᴘᴏʀᴛ ɪꜱꜱᴜᴇ •══ 🐞", url=f"https://telegram.me/TMK_MUSICSUPPORT")
             ]]
             btn_lzdv = [
                 [
@@ -1959,7 +1959,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             btn = [[
                 InlineKeyboardButton(text=f"🔍 Sᴇᴀʀᴄʜ 🇭​​​​​🇪​​​​​🇷​​​​​🇪​​​​​ 🔎", url=f"https://telegram.me/{MOVIE_GROUP_USERNAME}")
             ],[
-                InlineKeyboardButton(text=f"🐞 ══• ʀᴇᴘᴏʀᴛ ɪꜱꜱᴜᴇ •══ 🐞", url=f"https://telegram.me/LazyDeveloperSupport")
+                InlineKeyboardButton(text=f"🐞 ══• ʀᴇᴘᴏʀᴛ ɪꜱꜱᴜᴇ •══ 🐞", url=f"https://telegram.me/TMK_MUSICSUPPORT")
             ]]
             btn_lzdv = [
                 [
@@ -1984,7 +1984,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             btn = [[
                 InlineKeyboardButton(text=f"🔍 Sᴇᴀʀᴄʜ 🇭​​​​​🇪​​​​​🇷​​​​​🇪​​​​​ 🔎", url=f"https://telegram.me/{MOVIE_GROUP_USERNAME}")
             ],[
-                InlineKeyboardButton(text=f"🐞 ══• ʀᴇᴘᴏʀᴛ ɪꜱꜱᴜᴇ •══ 🐞", url=f"https://telegram.me/LazyDeveloperSupport")
+                InlineKeyboardButton(text=f"🐞 ══• ʀᴇᴘᴏʀᴛ ɪꜱꜱᴜᴇ •══ 🐞", url=f"https://telegram.me/TMK_MUSICSUPPORT")
             ]]
             btn_lzdv = [
                 [
@@ -2009,7 +2009,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             btn = [[
                 InlineKeyboardButton(text=f"🔍 Sᴇᴀʀᴄʜ 🇭​​​​​🇪​​​​​🇷​​​​​🇪​​​​​ 🔎", url=f"https://telegram.me/{MOVIE_GROUP_USERNAME}")
             ],[
-                InlineKeyboardButton(text=f"🐞 ══• ʀᴇᴘᴏʀᴛ ɪꜱꜱᴜᴇ •══ 🐞", url=f"https://telegram.me/LazyDeveloperSupport")
+                InlineKeyboardButton(text=f"🐞 ══• ʀᴇᴘᴏʀᴛ ɪꜱꜱᴜᴇ •══ 🐞", url=f"https://telegram.me/TMK_MUSICSUPPORT")
             ]]
             btn_lzdv = [
                 [
@@ -2034,7 +2034,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             btn = [[
                 InlineKeyboardButton(text=f"🔍 Sᴇᴀʀᴄʜ 🇭​​​​​🇪​​​​​🇷​​​​​🇪​​​​​ 🔎", url=f"https://telegram.me/{MOVIE_GROUP_USERNAME}")
             ],[
-                InlineKeyboardButton(text=f"🐞 ══• ʀᴇᴘᴏʀᴛ ɪꜱꜱᴜᴇ •══ 🐞", url=f"https://telegram.me/LazyDeveloperSupport")
+                InlineKeyboardButton(text=f"🐞 ══• ʀᴇᴘᴏʀᴛ ɪꜱꜱᴜᴇ •══ 🐞", url=f"https://telegram.me/TMK_MUSICSUPPORT")
             ]]
             btn_lzdv = [
                 [
@@ -2059,7 +2059,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             btn = [[
                 InlineKeyboardButton(text=f"💛 Request More 💛", url=f"https://telegram.me/{MOVIE_GROUP_USERNAME}")
             ],[
-                InlineKeyboardButton(text=f"🐞 ══• ʀᴇᴘᴏʀᴛ ɪꜱꜱᴜᴇ •══ 🐞", url=f"https://telegram.me/LazyDeveloperSupport")
+                InlineKeyboardButton(text=f"🐞 ══• ʀᴇᴘᴏʀᴛ ɪꜱꜱᴜᴇ •══ 🐞", url=f"https://telegram.me/TMK_MUSICSUPPORT")
             ]]
             btn_lzdv = [
                         [InlineKeyboardButton(text=f"♻ ̶R̶e̶q̶u̶e̶s̶t̶ ̶R̶e̶c̶i̶e̶v̶e̶d ♻", callback_data=f"notify_user_req_rcvd:{user_id}:{movie}")],
@@ -2342,7 +2342,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
         if str(grp_id) != str(grpid):
             await query.message.edit("Your Active Connection Has Been Changed. Go To /settings.")
-            return await query.answer('♥️ Thank You LazyDeveloper ♥️')
+            return await query.answer('♥️ Thank You @mukeshmoni ♥️')
         
         if set_type == 'url_mode' and query.from_user.id not in ADMINS:
             return await query.answer(text=f"Hey {query.from_user.first_name}, You can't change shortlink settings for your group !\n\nIt's an admin only setting !", show_alert=True)
@@ -2399,7 +2399,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
             reply_markup = InlineKeyboardMarkup(buttons)
             await query.message.edit_reply_markup(reply_markup)
-    await query.answer('♥️ Thank You LazyDeveloper ♥️')
+    await query.answer('♥️ Thank You @mukeshmoni ♥️')
 
 
 async def auto_filter(client, msg, spoll=False):
@@ -2426,7 +2426,7 @@ async def auto_filter(client, msg, spoll=False):
             search = re.sub(r"\s+", " ", search).strip()
             search = search.replace("-", " ")
             search = search.replace(":","")            
-            files, offset, total_results = await get_search_results_badAss_LazyDeveloperr(message.chat.id ,search, offset=0, filter=True)
+            files, offset, total_results = await get_search_results_badAss_@mukeshmoni(message.chat.id ,search, offset=0, filter=True)
             if not files:
                 # Generate the search URL
                 generated_link = f"https://google.com/search?q={quote(search)}"
@@ -2652,7 +2652,7 @@ async def auto_filter(client, msg, spoll=False):
             [InlineKeyboardButton(text="🗓 1/1", callback_data="pages")]
         )
 
-    #waiting user to complete imdb process @LazyDeveloperr
+    #waiting user to complete imdb process r
     user = message.from_user
     full_name = user.first_name + " " + user.last_name if user.last_name else user.first_name
     waiting_message = await message.reply_text(f"Setting up your request {full_name}...")
@@ -2660,7 +2660,7 @@ async def auto_filter(client, msg, spoll=False):
     await waiting_message.delete()
     imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
     TEMPLATE = settings['template']
-    # waiting overs here @LazyDeveloperr
+    # waiting overs here r
 
     if imdb:
         cap = TEMPLATE.format(
@@ -2700,7 +2700,7 @@ async def auto_filter(client, msg, spoll=False):
         try:
             z = await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024],
                                         reply_markup=InlineKeyboardMarkup(btn))
-            thanksaa = await message.reply_text(f"♥ Heads up for **<a href='https://t.me/LazyDeveloperr'>𓆩• LazyDeveloper •𓆪</a>**...\n<code>🎉 we love you 🎊</code>")
+            thanksaa = await message.reply_text(f"♥ Heads up for **<a href='https://t.me/KingofAtttitude'>𓆩• @mukeshmoni •𓆪</a>**...\n<code>🎉 we love you 🎊</code>")
             await asyncio.sleep(5)
             await thanksaa.delete()
             if SELF_DELETE:
@@ -2711,7 +2711,7 @@ async def auto_filter(client, msg, spoll=False):
             poster = pic.replace('.jpg', "._V1_UX360.jpg")
 
             m = await message.reply_photo(photo=poster, caption=cap[:1024], reply_markup=InlineKeyboardMarkup(btn))
-            thanks = await message.reply_text(f"♥ Heads up for **<a href='https://t.me/LazyDeveloperr'>𓆩• LazyDeveloper •𓆪</a>**...\n<code>🎉 we love you 🎊</code>")
+            thanks = await message.reply_text(f"♥ Heads up for **<a href='https://t.me/KingofAtttitude'>𓆩• @mukeshmoni •𓆪</a>**...\n<code>🎉 we love you 🎊</code>")
             await asyncio.sleep(5)
             await thanks.delete()
             if SELF_DELETE:
@@ -2721,7 +2721,7 @@ async def auto_filter(client, msg, spoll=False):
         except Exception as e:
             logger.exception(e)
             n = await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
-            thanksz = await message.reply_text(f"♥ Heads up for **<a href='https://t.me/LazyDeveloperr'>𓆩• LazyDeveloper •𓆪</a>**...\n<code>🎉 we love you 🎊</code>")
+            thanksz = await message.reply_text(f"♥ Heads up for **<a href='https://t.me/KingofAtttitude'>𓆩• @mukeshmoni •𓆪</a>**...\n<code>🎉 we love you 🎊</code>")
             await asyncio.sleep(5)
             await thanksz.delete()
             if SELF_DELETE:
@@ -2729,7 +2729,7 @@ async def auto_filter(client, msg, spoll=False):
                 await n.delete()         
     else:
         p = await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
-        thanksx = await message.reply_text(f"♥ Heads up for **<a href='https://t.me/LazyDeveloperr'>𓆩• LazyDeveloper •𓆪</a>**...\n<code>🎉 we love you 🎊</code>")
+        thanksx = await message.reply_text(f"♥ Heads up for **<a href='https://t.me/KingofAtttitude'>𓆩• @mukeshmoni •𓆪</a>**...\n<code>🎉 we love you 🎊</code>")
         await asyncio.sleep(5)
         await thanksx.delete()
         await asyncio.sleep(250)
@@ -2740,7 +2740,7 @@ async def auto_filter(client, msg, spoll=False):
     if spoll:
         await msg.message.delete()
 
-# Born to make history @LazyDeveloper !
+# Born to make history  !
 async def advantage_spell_chok(msg):
     query = re.sub(
         r"\b(pl(i|e)*?(s|z+|ease|se|ese|(e+)s(e)?)|((send|snd|giv(e)?|gib)(\sme)?)|movie(s)?|new|latest|br((o|u)h?)*|^h(e|a)?(l)*(o)*|mal(ayalam)?|t(h)?amil|file|that|find|und(o)*|kit(t(i|y)?)?o(w)?|thar(u)?(o)*w?|kittum(o)*|aya(k)*(um(o)*)?|full\smovie|any(one)|with\ssubtitle(s)?)",

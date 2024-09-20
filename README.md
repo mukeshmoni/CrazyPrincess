@@ -12,7 +12,7 @@
     - [+] ⚡️ Added `file renaming` feature ⚡️
       - super premium repo...
     - [+] ⚡️ Support 2GB + Files ⚡️
-    - [+] ⚡️ [Watch Latest Tutorial](https://youtube.com/LazyDeveloperr)  ⚡️
+    - [+] ⚡️ [Watch Latest Tutorial](https://youtube.com/@mukeshmoni)  ⚡️
 - [x] Auto Filter
 - [x] Manual Filter
 - [x] IMDB
@@ -29,7 +29,7 @@
 
 ## Variables
 
-Read [this](https://telegram.dog/LazyDevelopers/8) before you start messing up with your edits.
+Read [this](https://telegram.dog/@mukeshmonis/8) before you start messing up with your edits.
 
 ### Required Variables
 * `BOT_TOKEN`: Create a bot using [@BotFather](https://telegram.dog/BotFather), and get the Telegram API token.
@@ -56,20 +56,20 @@ Read [this](https://telegram.dog/LazyDevelopers/8) before you start messing up w
 * `PRIME_DOWNLOADERS`: ID of the users to which you want to give file uploading using url. Separate multiple ids by space.
 
 
-* Check [info.py](https://github.com/LazyDeveloperr/LazyPrincess/blob/master/info.py) for more
+* Check [info.py](https://github.com/mukeshmoni/CrazyPrincess/blob/master/info.py) for more
 
 
 ## Deploy
 You can deploy this bot anywhere.
 
 
-<a target="_blank" href="https://app.koyeb.com/deploy?type=git&repository=github.com/LazyDeveloperr/LazyPrincess&branch=master&name=lazyprincessbot"><img alt="Deploy to Koyeb" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/koyeb.svg"></a>
+<a target="_blank" href="https://app.koyeb.com/deploy?type=git&repository=github.com/@mukeshmoni/CutePrincess&branch=master&name=CutePrincessbot"><img alt="Deploy to Koyeb" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/koyeb.svg"></a>
 
 
 <details><summary>Deploy To Heroku</summary>
 <p>
 <br>
-<a href="https://heroku.com/deploy?template=https://github.com/LazyDeveloperr/LazyPrincess">
+<a href="https://heroku.com/deploy?template=https://github.com/mukeshmoni/CrazyPrincess">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 </p>
@@ -78,7 +78,7 @@ You can deploy this bot anywhere.
 <details><summary>Deploy To VPS</summary>
 <p>
 <pre>
-git clone https://github.com/LazyDeveloperr/LazyPrincess
+git clone https://github.com/mukeshmoni/CrazyPrincess
 # Install Packages
 pip3 install -U -r requirements.txt
 Edit info.py with variables as given below then run bot
@@ -112,7 +112,7 @@ python3 bot.py
 • /ban  - to ban a user.
 • /unban  - to unban a user.
 • /channel - to get list of total connected channels
-• /broadcast - to broadcast a message to all LazyPrincess users
+• /broadcast - to broadcast a message to all CutePrincess users
 • /batch - to create link for multiple posts
 • /link - to create link for one post
 • /set_caption - to set new custom caption #renaming_feature
@@ -126,26 +126,26 @@ python3 bot.py
 
 ```
 ## Support
-[![telegram badge](https://img.shields.io/badge/Telegram-Group-30302f?style=flat&logo=telegram)](https://telegram.dog/LazyPrincessSupport)
-[![telegram badge](https://img.shields.io/badge/Telegram-Channel-30302f?style=flat&logo=telegram)](https://telegram.dog/LazyDeveloper)
+[![telegram badge](https://img.shields.io/badge/Telegram-Group-30302f?style=flat&logo=telegram)](https://telegram.dog/CutePrincessSupport)
+[![telegram badge](https://img.shields.io/badge/Telegram-Channel-30302f?style=flat&logo=telegram)](https://telegram.dog/@mukeshmoni)
 
 ## Credits 
-* [![LazyPrincess-Devs](https://img.shields.io/static/v1?label=LazyPrincess&message=devs&color=critical)](https://telegram.dog/LazyDeveloper)
+* [![CutePrincess-Devs](https://img.shields.io/static/v1?label=CutePrincess&message=devs&color=critical)](https://telegram.dog/@mukeshmoni)
 
 ## Thanks to 
- - Thank you [LazyDeveloper](https://github.com/LazyDeveloperr) for adding amazing `url uploadig feature`, `online file streaming feature`, `file renaming feature` and keeping this `super premium repo` for `free` ❤ . Great Thanks to [LazyDeveloper](https://github.com/LazyDeveloperr) for helping us in this journey ❤
+ - Thank you [@mukeshmoni](https://github.com/mukeshmoni/CrazyPrincess) for adding amazing `url uploadig feature`, `online file streaming feature`, `file renaming feature` and keeping this `super premium repo` for `free` ❤ . Great Thanks to [@mukeshmoni](https://github.com/mukeshmoni/CrazyPrincess) for helping us in this journey ❤
  - Thanks To Dan For His Awesome [Library](https://github.com/pyrogram/pyrogram)
  - Thanks To Dan For His Awesome [Library](https://github.com/pyrogram/pyrogram)
  - Thanks To Mahesh For His Awesome [Media-Search-bot](https://github.com/Mahesh0253/Media-Search-bot)
  - Thanks To [Trojanz](https://github.com/trojanzhex) for Their Awesome [Unlimited Filter Bot](https://github.com/TroJanzHEX/Unlimited-Filter-Bot) And [AutoFilterBoT](https://github.com/trojanzhex/auto-filter-bot)
  - Thanks To Gangster Baby Repo for rename feature.
  - Thanks to Adarsh for file-to-link repo.
- - Thanks to TG@SiliconOfficial for sharing me Cute_Repo to improve LazyPrincess.
+ - Thanks to TG@SiliconOfficial for sharing me Cute_Repo to improve CutePrincess.
  - Thanks To All Everyone In This Journey
 
 ### Note
 
-[Join Main Channel](https://telegram.dog/LazyDeveloper): LazyDeveloper 🎁
+[Join Main Channel](https://telegram.dog/@mukeshmoni): @mukeshmoni 🎁
 
 
 ### 🔗 important_Links
@@ -154,19 +154,19 @@ python3 bot.py
 - [🤩 Error Handling Videos](https://www.youtube.com/playlist?list=PLZHPDcp3VkigMWoTjujScuhFLCl1jl-ah)
 - [۞ Create FILE TO LINK BOT](https://www.youtube.com/watch?v=h3Uvr15ZPnc)
 - [🤩 Create Movie Request BOT](https://www.youtube.com/watch?v=mIEv7MjLj2U&t=38s)
-- [❣️ Join Youtube](https://www.youtube.com/@LazyDeveloperr)
+- [❣️ Join Youtube](https://www.youtube.com/r)
 
 
 #### 🧡 Respecting... 🧡
-- Sir [🔥 LazyDeveloperr](https://github.com/LazyDeveloperr) 
+- Sir [🔥 @mukeshmoni](https://github.com/mukeshmoni/CrazyPrincess) 
 
 ### 🤩 INSPIRATION
-<a href="https://telegram.dog/LazyPrincessX_BOT">
-   <p>❣️ LazyPrincess 🔥</p>
+<a href="https://telegram.dog/CutePrincessX_BOT">
+   <p>❣️ CutePrincess 🔥</p>
 </a>
 
 
 ## Disclaimer
 [![GNU Affero General Public License 2.0](https://www.gnu.org/graphics/agplv3-155x51.png)](https://www.gnu.org/licenses/agpl-3.0.en.html#header)    
-Licensed under [GNU AGPL 2.0.](https://github.com/LazyDeveloperr/LazyPrincess/blob/master/LICENSE)
+Licensed under [GNU AGPL 2.0.](https://github.com/mukeshmoni/CrazyPrincess/blob/master/LICENSE)
 Selling The Codes To Other People For Money Is *Strictly Prohibited*.
